@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Roboto:ital,wght@0,300;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <style>
+        .class-div {
+            color: black;
+        }
+
+        #id-div {
+            padding: 20px 20px 20px 20px;
+            width: 20em;
+
+        }
+
+        div,
+        p {
+            padding: 20px;
+        }
+
+        p:nth-child(3) {
+            color: blueviolet;
+        }
+
+        a:hover {
+            color: orange;
+
+        }
+
+        a:active {
+            color: green;
+        }
+
+        a:visited {
+            color: rgb(248, 13, 13)
+        }
+
+        div div p {
+            color: brown;
+        }
+
+        body>div:nth-child(2)>div:nth-child(6)>p {
+            color: yellow;
+        }
+
+
+        
+    </style>
+</head>
+
+<body>
+    <!-- 3m lawen telet p bs he bhotta bl style
+        p:nth-child(3){    
+            color: blueviolet;
+        } -->
+
+    <!--div#id-div-->
+    <div id="id-div" class="class-div" style="color: orange">
+        <p>hello</p>
+    </div>
+
+    <!--div.class-div-->
+    <div class="class-div">
+        <a href="https://google.com">click me</a>
+        <p>how are you</p>
+        <p>how are you</p>
+        <p>how are you</p>
+        <p>how are you</p>
+        <div>
+            <p>marhaba</p>
+        </div>
+        <div>
+            <p>hii</p>
+        </div>
+    </div>
+    <!-- inspect -> copy -> js -> b3rf kif oktob bl style div:nth-child(2) > div:nth-child(6)  -->
+
+</body>
+
+</html>
